@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+/* navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+}
+ /* Button */
+ .dwn-button {
+    margin: 5% 3% 5% 0;
+ }
+/* I-phone 6 */
+.title-image{
+    width: 60% ;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+#features{
+    align-content: center;
+    padding: 7% 15% ;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.features-box{
+    text-align: center;
+}
+.features-box h3{
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.feat{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    transition: 0.4s;
+}
+.feat:hover{
+    color: #ff4c68;
+    transform: scale(1.02);
+    
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    
+    color: #fff;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.testimonial-image2{
+    border-radius: 80%;
+    width: 14%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h3{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: bold;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-icons{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+padding: 3% 2%;
+}
+@media (max-width:991px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    position:  static;
+    transform: rotate(0);
+    }
+
+}
+#cta{
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 7% 15%;
+}
+.cta-wala-text{
+    font-weight: 900;
+    font-family: 'Montserrat',sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.dwnw-button{
+    margin: 4% 1%;
+}
+#footer{
+    text-align: center;
+    padding: 2% 15%;
+}
+.social-icons{
+    margin: 20px 10px;
+    color: black;
+}
+.social-icn :hover{
+    transform: scale(1.2);
+    transition: .5s;
+
+}
